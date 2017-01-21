@@ -1,0 +1,34 @@
+{
+  "name": "deimos/csrf",
+  "description": "Deimos CSRF.",
+  "keywords": [
+    "deimos",
+    "csrf",
+    "csrf session",
+    "csrf cookie",
+    "csrf token",
+    "token system",
+    "token"
+  ],
+  "homepage": "https://github.com/DeimosProject/CSRF",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "rez1dent3",
+      "email": "maksim.babichev95@gmail.com"
+    }
+  ],
+  "require": {
+    "deimos/session": "^0.0",
+    "deimos/cookie": "^0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deimos\\": "src/"
+    }
+  }
+}
