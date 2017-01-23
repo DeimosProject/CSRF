@@ -84,21 +84,6 @@ class CSRF
     }
 
     /**
-     * @return mixed
-     *
-     * @throws \InvalidArgumentException
-     */
-    protected function getCurrentValue()
-    {
-        if (!$this->currentValue)
-        {
-            $this->currentValue = $this->session->flash('__csrfValue');
-        }
-
-        return $this->currentValue;
-    }
-
-    /**
      * @return string
      *
      * @throws \InvalidArgumentException
