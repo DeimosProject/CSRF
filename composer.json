@@ -4,10 +4,6 @@
   "keywords": [
     "deimos",
     "csrf",
-    "csrf session",
-    "csrf cookie",
-    "csrf token",
-    "token system",
     "token"
   ],
   "homepage": "https://github.com/DeimosProject/CSRF",
